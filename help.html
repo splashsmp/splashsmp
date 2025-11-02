@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hráčské Recenze - SplashSMP</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:wght@300&display=swap">
+    <style>
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  height: 2000px; /* Velká výška pro scrollování */
+}
+
+.image-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Pokrývá celou obrazovku */
+  backund-image: url('image.png'); /* Zde vložte svou cestu k obrázku */
+ 
+  background-size: ;
+
+ 
+  ; /* Pozadí je za obsahem */
+  transition: background-color 0.3s ease;
+}
+
+.content {
+  margin-top: 100vh; /* Obsah začne až po obrázku */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.timeline {
+  margin-top: 120vh; /* Tento bod je, kde chcete, aby se pozadí změnilo na bílé */
+}
+
+.white-bg {
+  background-color: white; /* Zde je bílé pozadí */
+}
+.kamzik {
+  background-color: white;
+}
+
+
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-background"></div>
+    <div class="content">
+      <section class="timeline">
+    <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+  </div></div>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+  <div class="kamzik"> <button> ahooooj</button>
+  
+  <h1>toto tlacitko</h1> 
+  
+  
+  
+ 
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+  </div>
+    <br> <h1>csahodjadnadhajak toj de xdddd</h1>
+
+ <script>
+  window.addEventListener('scroll', function() {
+  const imageBackground = document.querySelector('.image-background');
+  const timeline = document.querySelector('.timeline');
+  
+  // Pozice elementu .timeline
+  const timelinePosition = timeline.offsetTop;
+  
+  // Pozice při scrollování
+  const scrollPosition = window.scrollY;
+
+  // Pokud je scroll větší nebo rovný pozici timeline, pozadí bude bílé
+  if (scrollPosition >= timelinePosition) {
+    imageBackground.style.backgroundColor = 'white'; // Pozadí se změní na bílé
+  } else {
+    imageBackground.style.backgroundColor = ''; // Pozadí se vrátí k obrázku
+  }
+});
+
+</script>
+</body>
+</html>
